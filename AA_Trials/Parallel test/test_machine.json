@@ -1,0 +1,50 @@
+{
+    "general": {
+        "maxSimTime": 100,
+        "numberOfReplications": 1,
+        "trace": "No",
+	"seed": 1
+    },
+    "graph": {
+        "edge": {
+            "1": {
+                "_class": "manpy.Edge",
+                "destination": "M1",
+                "source": "S1"
+            },
+            "2": {
+                "_class": "manpy.Edge",
+                "destination": "E1",
+                "source": "M1"
+            }
+        },
+        "node": {
+            "E1": {
+                "_class": "manpy.Exit",
+                "name": "Exit",
+		"gatherSysTimeEx": 1
+            },
+            "M1": {
+                "_class": "manpy.Machine",
+                "name": "Machine",
+		"capacity": 5,
+                "processingTime": {
+                    "Fixed": {
+                        "mean": 6.0
+                    }
+                }
+            },
+            "S1": {
+                "_class": "manpy.Source",
+                "entity": "manpy.Part",
+                "id": "S1",
+                "interArrivalTime": {
+                    "Fixed": {
+                        "mean": 2.0
+                    }
+                },
+                "name": "Source"
+            }
+        }
+    }
+}

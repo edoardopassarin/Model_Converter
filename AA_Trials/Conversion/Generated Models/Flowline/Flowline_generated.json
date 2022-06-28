@@ -1,0 +1,131 @@
+{
+    "nodes": [
+        {
+            "activity": 1,
+            "predecessors": [],
+            "successors": [
+                2
+            ],
+            "frequency": 4087,
+            "capacity": 1,
+            "contemp": 0,
+            "cluster": 1,
+            "stats": "temp"
+        },
+        {
+            "activity": 2,
+            "predecessors": [
+                1
+            ],
+            "successors": [
+                3
+            ],
+            "frequency": 4079,
+            "capacity": 1,
+            "contemp": 0,
+            "cluster": 2,
+            "stats": "temp"
+        },
+        {
+            "activity": 3,
+            "predecessors": [
+                2
+            ],
+            "successors": [
+                4
+            ],
+            "frequency": 4079,
+            "capacity": 1,
+            "contemp": 0,
+            "cluster": 3,
+            "stats": "temp"
+        },
+        {
+            "activity": 4,
+            "predecessors": [
+                3
+            ],
+            "successors": [
+                5
+            ],
+            "frequency": 4079,
+            "capacity": 1,
+            "contemp": 0,
+            "cluster": 4,
+            "stats": "temp"
+        },
+        {
+            "activity": 5,
+            "predecessors": [
+                4
+            ],
+            "successors": [
+                6
+            ],
+            "frequency": 4079,
+            "capacity": 1,
+            "contemp": 0,
+            "cluster": 5,
+            "stats": "temp"
+        },
+        {
+            "activity": 6,
+            "predecessors": [
+                5
+            ],
+            "successors": [],
+            "frequency": 4079,
+            "capacity": 1,
+            "contemp": 0,
+            "cluster": 6,
+            "stats": "temp"
+        }
+    ],
+    "arcs": [
+        {
+            "arc": [
+                1,
+                2
+            ],
+            "capacity": 8.0,
+            "frequency": 4083,
+            "contemp": 86
+        },
+        {
+            "arc": [
+                2,
+                3
+            ],
+            "capacity": 3.0,
+            "frequency": 4082,
+            "contemp": 1046
+        },
+        {
+            "arc": [
+                3,
+                4
+            ],
+            "capacity": 3.0,
+            "frequency": 4081,
+            "contemp": 916
+        },
+        {
+            "arc": [
+                4,
+                5
+            ],
+            "capacity": 0.0,
+            "frequency": 4080,
+            "contemp": 3130
+        },
+        {
+            "arc": [
+                5,
+                6
+            ],
+            "capacity": 1.0,
+            "frequency": 4079,
+            "contemp": 2028
+        }
+    ]
+}

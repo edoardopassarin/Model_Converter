@@ -1,0 +1,67 @@
+{
+    "general": {
+        "maxSimTime": 100,
+        "numberOfReplications": 1,
+        "trace": "No",
+	"seed": 1,
+	"initializingFlag": 1,
+	"initializingFilename": "C:/Users/edoar/repos/Model_Generator/AA_Trials/Test Files/Input Files/Routing.txt"
+    },
+    "graph": {
+        "edge": {
+            "1": {
+                "_class": "manpy.Edge",
+                "destination": "Q1",
+                "source": "M2"
+            },
+            "2": {
+                "_class": "manpy.Edge",
+                "destination": "M1",
+                "source": "Q1"
+            },
+            "3": {
+                "_class": "manpy.Edge",
+                "destination": "Q2",
+                "source": "M1"
+            },
+	    "4": {
+                "_class": "manpy.Edge",
+                "destination": "M2",
+                "source": "Q2"
+            }
+        },
+        "node": {
+            "M1": {
+                "_class": "manpy.Machine",
+                "name": "Machine",
+                "processingTime": {
+                    "Fixed": {
+                        "mean": 2
+                    }
+                },
+		"gatherSysTime": 0,
+		"gatherIntArr": 0
+            },
+	    "M2": {
+                "_class": "manpy.Machine",
+                "name": "Machine",
+                "processingTime": {
+                    "Fixed": {
+                        "mean": 2
+                    }
+                }
+            },
+            "Q1": {
+                "_class": "manpy.Queue",
+                "capacity": 15,
+                "name": "Queue",
+		"gatherWipStat": 1
+            },
+            "Q2": {
+                "_class": "manpy.Queue",
+                "capacity": 10,
+                "name": "Queue"
+            }
+        }
+    }
+}

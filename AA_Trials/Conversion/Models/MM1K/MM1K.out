@@ -1,0 +1,52 @@
+
+                                      ARENA Simulation Results
+                                 Edoardo Passarin - License: STUDENT
+
+                                  Summary for Replication 1 of 1
+
+Project: Unnamed Project                                             Run execution date : 3/ 4/2022
+Analyst: francesco.verucchi@hotmail.it                               Model revision date: 3/ 4/2022
+
+Replication ended at time      : 1000.0 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Tally 1                                         --         --         --         --          0
+Systime_tally                               5.0000     (Insuf)    5.0000     5.0000        200    
+Part.VATime                                     --         --         --         --          0
+Part.NVATime                                    --         --         --         --          0
+Part.WaitTime                                   --         --         --         --          0
+Part.TranTime                                   --         --         --         --          0
+Part.OtherTime                                  --         --         --         --          0
+Part.TotalTime                                  --         --         --         --          0
+Q1.WaitingTime                              .00000     (Insuf)    .00000     .00000        201    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Part.WIP                                    1.0000     (Insuf)    .00000     2.0000     1.0000    
+M1.NumberBusy                               1.0000     (Insuf)    .00000     1.0000     1.0000    
+M1.NumberScheduled                          1.0000     (Insuf)    1.0000     1.0000     1.0000    
+M1.Utilization                              1.0000     (Insuf)    .00000     1.0000     1.0000    
+Q1.NumberInQueue                            .00000     (Insuf)    .00000     1.0000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Part.NumberIn                               201.00    
+Part.NumberOut                              200.00    
+M1.NumberSeized                             201.00    
+M1.ScheduledUtilization                     1.0000    
+System.NumberOut                            .00000    
+
+
+Simulation run time: 0.02 minutes.
+Simulation run complete.

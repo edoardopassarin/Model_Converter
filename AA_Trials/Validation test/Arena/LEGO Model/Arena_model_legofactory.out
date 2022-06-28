@@ -1,0 +1,70 @@
+
+                                      ARENA Simulation Results
+                                 Edoardo Passarin - License: STUDENT
+
+                                  Summary for Replication 1 of 1
+
+Project: Unnamed Project                                             Run execution date : 2/22/2022
+Analyst: francesco.verucchi@hotmail.it                               Model revision date: 2/22/2022
+
+Replication ended at time      : 30000000.0 Seconds 
+Base Time Units: Seconds
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Tally_System_time                           153.41     (Insuf)    1.0000     203.77        177    
+Processing_timeS2                               --         --         --         --          0
+interdeparture_S1                           13.241     (Insuf)    9.2200     29.699        175    
+Tally 1                                         --         --         --         --          0
+Pallet.VATime                                   --         --         --         --          0
+Pallet.NVATime                                  --         --         --         --          0
+Pallet.WaitTime                                 --         --         --         --          0
+Pallet.TranTime                                 --         --         --         --          0
+Pallet.OtherTime                                --         --         --         --          0
+Pallet.TotalTime                                --         --         --         --          0
+Queue 1.WaitingTime                         5.2977     (Insuf)    .00000     75.540        177    
+Queue 2.WaitingTime                         100.22     (Insuf)    .00000     130.72        179    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Pallet.WIP                                  11.000     (Insuf)    .00000     12.000     11.000    
+Machine 1.NumberBusy                        1.0000     (Insuf)    .00000     1.0000     1.0000    
+Machine 1.NumberScheduled                   1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Machine 1.Utilization                       1.0000     (Insuf)    .00000     1.0000     1.0000    
+Machine 2.NumberBusy                        1.0000     (Insuf)    .00000     1.0000     1.0000    
+Machine 2.NumberScheduled                   1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Machine 2.Utilization                       1.0000     (Insuf)    .00000     1.0000     1.0000    
+Queue 1.NumberInQueue                       7.9993     (Insuf)    .00000     8.0000     8.0000    
+Queue 2.NumberInQueue                       1.0005     (Corr)     .00000     8.0000     1.0000    
+
+                                             COUNTERS
+
+Identifier                                    Count   Limit
+_____________________________________________________________
+
+WIP                                              12  Infinite
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+final_position                              8.0000    
+Output 2                                    1.0000    
+Pallet.NumberIn                             13.000    
+Pallet.NumberOut                            2.0000    
+Machine 1.NumberSeized                      177.00    
+Machine 1.ScheduledUtilization              1.0000    
+Machine 2.NumberSeized                      179.00    
+Machine 2.ScheduledUtilization              1.0000    
+System.NumberOut                            .00000    
+
+
+Simulation run time: 0.03 minutes.
+Simulation run complete.

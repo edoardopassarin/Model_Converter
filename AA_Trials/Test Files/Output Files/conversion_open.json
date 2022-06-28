@@ -1,0 +1,75 @@
+{
+    "general": {
+        "maxSimTime": 1,
+        "numberOfReplications": 1,
+        "Trace": "No",
+        "seed": 1
+    },
+    "graph": {
+        "edge": {
+            "1": {
+                "_class": "manpy.Edge",
+                "destination": "Q1",
+                "source": "M1"
+            },
+            "2": {
+                "_class": "manpy.Edge",
+                "destination": "M2",
+                "source": "Q1"
+            },
+            "S_1": {
+                "_class": "manpy.Edge",
+                "destination": "M1",
+                "source": "S1"
+            },
+            "E_1": {
+                "_class": "manpy.Edge",
+                "destination": "E1",
+                "source": "M2"
+            }
+        },
+        "node": {
+            "M1": {
+                "_class": "manpy.Machine",
+                "name": "Machine",
+                "processingTime": {
+                    "NormalSP": {
+                        "locSP": 6.512820512820513,
+                        "scaleSP": 1.5992272953346334
+                    }
+                }
+            },
+            "M2": {
+                "_class": "manpy.Machine",
+                "name": "Machine",
+                "processingTime": {
+                    "NormalSP": {
+                        "locSP": 6.411764705882353,
+                        "scaleSP": 0.7714633558002355
+                    }
+                }
+            },
+            "Q1": {
+                "_class": "manpy.Queue",
+                "capacity": 3.0,
+                "name": "Queue",
+                "wip": []
+            },
+            "S1": {
+                "_class": "manpy.Source",
+                "entity": "manpy.Part",
+                "id": "S1",
+                "interArrivalTime": {
+                    "Fixed": {
+                        "mean": 3.55
+                    }
+                },
+                "name": "Source"
+            },
+            "E1": {
+                "_class": "manpy.Exit",
+                "name": "Exit"
+            }
+        }
+    }
+}

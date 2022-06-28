@@ -1,0 +1,189 @@
+{
+    "general": {
+        "maxSimTime": 1,
+        "numberOfReplications": 1,
+        "Trace": "No",
+        "seed": 1
+    },
+    "graph": {
+        "edge": {
+            "1": {
+                "_class": "manpy.Edge",
+                "destination": "Q1",
+                "source": "M1"
+            },
+            "2": {
+                "_class": "manpy.Edge",
+                "destination": "M2",
+                "source": "Q1"
+            },
+            "3": {
+                "_class": "manpy.Edge",
+                "destination": "Q2",
+                "source": "M2"
+            },
+            "4": {
+                "_class": "manpy.Edge",
+                "destination": "M3",
+                "source": "Q2"
+            },
+            "5": {
+                "_class": "manpy.Edge",
+                "destination": "Q3",
+                "source": "M3"
+            },
+            "6": {
+                "_class": "manpy.Edge",
+                "destination": "M4",
+                "source": "Q3"
+            },
+            "7": {
+                "_class": "manpy.Edge",
+                "destination": "Q4",
+                "source": "M4"
+            },
+            "8": {
+                "_class": "manpy.Edge",
+                "destination": "M5",
+                "source": "Q4"
+            },
+            "9": {
+                "_class": "manpy.Edge",
+                "destination": "Q5",
+                "source": "M5"
+            },
+            "10": {
+                "_class": "manpy.Edge",
+                "destination": "M6",
+                "source": "Q5"
+            },
+            "S_1": {
+                "_class": "manpy.Edge",
+                "destination": "QS1",
+                "source": "S1"
+            },
+            "SQ_1": {
+                "_class": "manpy.Edge",
+                "destination": "M1",
+                "source": "QS1"
+            },
+            "E_1": {
+                "_class": "manpy.Edge",
+                "destination": "E1",
+                "source": "M6"
+            }
+        },
+        "node": {
+            "M1": {
+                "_class": "manpy.Machine",
+                "name": "Machine",
+                "processingTime": {
+                    "NormalSP": {
+                        "locSP": 10,
+                        "scaleSP": 20
+                    }
+                }
+            },
+            "M2": {
+                "_class": "manpy.Machine",
+                "name": "Machine",
+                "processingTime": {
+                    "NormalSP": {
+                        "locSP": 10,
+                        "scaleSP": 20
+                    }
+                }
+            },
+            "M3": {
+                "_class": "manpy.Machine",
+                "name": "Machine",
+                "processingTime": {
+                    "NormalSP": {
+                        "locSP": 10,
+                        "scaleSP": 20
+                    }
+                }
+            },
+            "M4": {
+                "_class": "manpy.Machine",
+                "name": "Machine",
+                "processingTime": {
+                    "NormalSP": {
+                        "locSP": 10,
+                        "scaleSP": 20
+                    }
+                }
+            },
+            "M5": {
+                "_class": "manpy.Machine",
+                "name": "Machine",
+                "processingTime": {
+                    "NormalSP": {
+                        "locSP": 10,
+                        "scaleSP": 20
+                    }
+                }
+            },
+            "M6": {
+                "_class": "manpy.Machine",
+                "name": "Machine",
+                "processingTime": {
+                    "NormalSP": {
+                        "locSP": 10,
+                        "scaleSP": 20
+                    }
+                }
+            },
+            "Q1": {
+                "_class": "manpy.Queue",
+                "capacity": 8.0,
+                "name": "Queue",
+                "wip": []
+            },
+            "Q2": {
+                "_class": "manpy.Queue",
+                "capacity": 3.0,
+                "name": "Queue",
+                "wip": []
+            },
+            "Q3": {
+                "_class": "manpy.Queue",
+                "capacity": 3.0,
+                "name": "Queue",
+                "wip": []
+            },
+            "Q4": {
+                "_class": "manpy.Queue",
+                "capacity": 0.0,
+                "name": "Queue",
+                "wip": []
+            },
+            "Q5": {
+                "_class": "manpy.Queue",
+                "capacity": 1.0,
+                "name": "Queue",
+                "wip": []
+            },
+            "S1": {
+                "_class": "manpy.Source",
+                "entity": "manpy.Part",
+                "id": "S1",
+                "interArrivalTime": {
+                    "Fixed": {
+                        "mean": 3.55
+                    }
+                },
+                "name": "Source"
+            },
+            "QS1": {
+                "_class": "manpy.Queue",
+                "capacity": 1000,
+                "name": "Queue"
+            },
+            "E1": {
+                "_class": "manpy.Exit",
+                "name": "Exit"
+            }
+        }
+    }
+}

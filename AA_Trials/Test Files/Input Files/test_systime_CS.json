@@ -1,0 +1,113 @@
+{
+    "general": {
+        "maxSimTime": 100,
+        "numberOfReplications": 2,
+        "trace": "No",
+	"seed": 1
+    },
+    "graph": {
+        "edge": {
+            "1": {
+                "_class": "manpy.Edge",
+                "destination": "Q1",
+                "source": "M3"
+            },
+            "2": {
+                "_class": "manpy.Edge",
+                "destination": "M1",
+                "source": "Q1"
+            },
+            "3": {
+                "_class": "manpy.Edge",
+                "destination": "Q2",
+                "source": "M1"
+            },
+	    "4": {
+                "_class": "manpy.Edge",
+                "destination": "M2",
+                "source": "Q2"
+            },
+	    "5": {
+                "_class": "manpy.Edge",
+                "destination": "Q3",
+                "source": "M2"
+            },
+	    "6": {
+                "_class": "manpy.Edge",
+                "destination": "M3",
+                "source": "Q3"
+            }
+        },
+        "node": {
+            "M1": {
+                "_class": "manpy.Machine",
+                "name": "Machine",
+                "processingTime": {
+                    "Fixed": {
+                        "mean": 2
+                    }
+                },
+		"gatherSysTime": 1,
+		"gatherIntArr": 1
+            },
+	    "M2": {
+                "_class": "manpy.Machine",
+                "name": "Machine",
+                "processingTime": {
+                    "Fixed": {
+                        "mean": 2
+                    }
+                }
+            },
+            "M3": {
+                "_class": "manpy.Machine",
+                "name": "Machine",
+                "processingTime": {
+                    "Fixed": {
+                        "mean": 2
+                    }
+                }
+            },
+            "Q1": {
+                "_class": "manpy.Queue",
+                "capacity": 5,
+                "name": "Queue",
+		"wip": [
+		     {
+			"_class": "manpy.Part",
+                        "id": "P1",
+                        "name": "Part1"
+		     },
+		     {
+			"_class": "manpy.Part",
+                        "id": "P2",
+                        "name": "Part2"
+		     }
+		],
+		"gatherWipStat": 1
+            },
+            "Q2": {
+                "_class": "manpy.Queue",
+                "capacity": 2,
+                "name": "Queue",
+		"wip": [
+		     {
+			"_class": "manpy.Part",
+                        "id": "P3",
+                        "name": "Part3"
+		     },
+		     {
+			"_class": "manpy.Part",
+                        "id": "P4",
+                        "name": "Part4"
+		     }
+		]
+            },
+            "Q3": {
+                "_class": "manpy.Queue",
+                "capacity": 2,
+                "name": "Queue"
+            }
+        }
+    }
+}

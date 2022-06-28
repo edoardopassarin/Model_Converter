@@ -1,0 +1,68 @@
+{
+ "_class": "manpy.Simulation",
+ "general": {
+  "_class": "manpy.Configuration",
+  "totalExecutionTime": 0.0282132625579834
+ },
+ "elementList": [
+  {
+   "_class": "manpy.Machine",
+   "id": "M1",
+   "family": "Server",
+   "results": {
+    "working_ratio": [
+     50.0
+    ],
+    "blockage_ratio": [
+     0.0
+    ],
+    "waiting_ratio": [
+     50.0
+    ],
+    "completed_jobs": [
+     4
+    ],
+    "system_time_trace": [
+     [
+      0,
+      1,
+      10,
+      17,
+      15
+     ]
+    ]
+   }
+  },
+  {
+   "_class": "manpy.Machine",
+   "id": "M2",
+   "family": "Server",
+   "results": {
+    "working_ratio": [
+     96.66666666666667
+    ],
+    "blockage_ratio": [
+     0.0
+    ],
+    "waiting_ratio": [
+     3.3333333333333335
+    ],
+    "completed_jobs": [
+     3
+    ]
+   }
+  },
+  {
+   "_class": "manpy.Queue",
+   "id": "Q1",
+   "family": "Buffer",
+   "results": {}
+  },
+  {
+   "_class": "manpy.Queue",
+   "id": "Q2",
+   "family": "Buffer",
+   "results": {}
+  }
+ ]
+}

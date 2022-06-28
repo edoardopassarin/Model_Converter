@@ -1,0 +1,420 @@
+
+                                      ARENA Simulation Results
+                                 Edoardo Passarin - License: STUDENT
+
+                                  Summary for Replication 1 of 5
+
+Project: Unnamed Project                                             Run execution date : 3/10/2022
+Analyst: francesco.verucchi@hotmail.it                               Model revision date: 3/10/2022
+
+Replication ended at time      : 86400.0 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Tally 1                                         --         --         --         --          0
+Systime_tally                               135.02     2.3512     94.424     277.14       2831    
+Part.VATime                                     --         --         --         --          0
+Part.NVATime                                    --         --         --         --          0
+Part.WaitTime                                   --         --         --         --          0
+Part.TranTime                                   --         --         --         --          0
+Part.OtherTime                                  --         --         --         --          0
+Part.TotalTime                                  --         --         --         --          0
+Q1.WaitingTime                              2.0245     .26918     .00000     12.077       2835    
+Q2.WaitingTime                              10.594     1.4315     .00000     92.013        938    
+Q3.WaitingTime                              9.9012     2.3978     .00000     145.52        927    
+Q4.WaitingTime                              8.0760     1.5874     .00000     92.913        968    
+Q5.WaitingTime                              17.796     1.6744     .00000     76.469       2832    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Part.WIP                                    4.4271     .07870     .00000     7.0000     4.0000    
+M1.NumberBusy                               .98527     .00175     .00000     1.0000     1.0000    
+M1.NumberScheduled                          1.0000     (Insuf)    1.0000     1.0000     1.0000    
+M1.Utilization                              .98527     .00175     .00000     1.0000     1.0000    
+M2.NumberBusy                               .54365     .02783     .00000     1.0000     1.0000    
+M2.NumberScheduled                          1.0000     (Insuf)    1.0000     1.0000     1.0000    
+M2.Utilization                              .54365     .02783     .00000     1.0000     1.0000    
+M3.NumberBusy                               .48396     .03370     .00000     1.0000     .00000    
+M3.NumberScheduled                          1.0000     (Insuf)    1.0000     1.0000     1.0000    
+M3.Utilization                              .48396     .03370     .00000     1.0000     .00000    
+M4.NumberBusy                               .50215     .03025     .00000     1.0000     .00000    
+M4.NumberScheduled                          1.0000     (Insuf)    1.0000     1.0000     1.0000    
+M4.Utilization                              .50215     .03025     .00000     1.0000     .00000    
+M5.NumberBusy                               .95044     .00658     .00000     1.0000     1.0000    
+M5.NumberScheduled                          1.0000     (Insuf)    1.0000     1.0000     1.0000    
+M5.Utilization                              .95044     .00658     .00000     1.0000     1.0000    
+Q1.NumberInQueue                            .06643     .00871     .00000     1.0000     .00000    
+Q2.NumberInQueue                            .11522     .01979     .00000     2.0000     1.0000    
+Q3.NumberInQueue                            .10623     .03423     .00000     4.0000     .00000    
+Q4.NumberInQueue                            .09048     .02257     .00000     3.0000     .00000    
+Q5.NumberInQueue                            .58334     .05170     .00000     3.0000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Part.NumberIn                               2835.0    
+Part.NumberOut                              2831.0    
+M1.NumberSeized                             2835.0    
+M1.ScheduledUtilization                     .98527    
+M2.NumberSeized                             938.00    
+M2.ScheduledUtilization                     .54365    
+M3.NumberSeized                             927.00    
+M3.ScheduledUtilization                     .48396    
+M4.NumberSeized                             968.00    
+M4.ScheduledUtilization                     .50215    
+M5.NumberSeized                             2832.0    
+M5.ScheduledUtilization                     .95044    
+System.NumberOut                            .00000    
+
+Beginning replication 2 of 5
+
+                                      ARENA Simulation Results
+                                 Edoardo Passarin - License: STUDENT
+
+                                  Summary for Replication 2 of 5
+
+Project: Unnamed Project                                             Run execution date : 3/10/2022
+Analyst: francesco.verucchi@hotmail.it                               Model revision date: 3/10/2022
+
+Replication ended at time      : 86400.0 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Tally 1                                         --         --         --         --          0
+Systime_tally                               132.82     1.7100     94.470     282.06       2826    
+Part.VATime                                     --         --         --         --          0
+Part.NVATime                                    --         --         --         --          0
+Part.WaitTime                                   --         --         --         --          0
+Part.TranTime                                   --         --         --         --          0
+Part.OtherTime                                  --         --         --         --          0
+Part.TotalTime                                  --         --         --         --          0
+Q1.WaitingTime                              1.8326     .45185     .00000     14.724       2830    
+Q2.WaitingTime                              9.8670     1.6273     .00000     131.51        889    
+Q3.WaitingTime                              9.2002     1.8738     .00000     83.555        980    
+Q4.WaitingTime                              8.9095     1.4240     .00000     105.69        959    
+Q5.WaitingTime                              16.134     1.2011     .00000     67.699       2827    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Part.WIP                                    4.3476     .06515     .00000     7.0000     4.0000    
+M1.NumberBusy                               .98306     .00184     .00000     1.0000     1.0000    
+M1.NumberScheduled                          1.0000     (Insuf)    1.0000     1.0000     1.0000    
+M1.Utilization                              .98306     .00184     .00000     1.0000     1.0000    
+M2.NumberBusy                               .51414     (Corr)     .00000     1.0000     .00000    
+M2.NumberScheduled                          1.0000     (Insuf)    1.0000     1.0000     1.0000    
+M2.Utilization                              .51414     (Corr)     .00000     1.0000     .00000    
+M3.NumberBusy                               .51031     .02547     .00000     1.0000     1.0000    
+M3.NumberScheduled                          1.0000     (Insuf)    1.0000     1.0000     1.0000    
+M3.Utilization                              .51031     .02547     .00000     1.0000     1.0000    
+M4.NumberBusy                               .49919     .03043     .00000     1.0000     .00000    
+M4.NumberScheduled                          1.0000     (Insuf)    1.0000     1.0000     1.0000    
+M4.Utilization                              .49919     .03043     .00000     1.0000     .00000    
+M5.NumberBusy                               .94802     .00525     .00000     1.0000     1.0000    
+M5.NumberScheduled                          1.0000     (Insuf)    1.0000     1.0000     1.0000    
+M5.Utilization                              .94802     .00525     .00000     1.0000     1.0000    
+Q1.NumberInQueue                            .06003     .01423     .00000     1.0000     .00000    
+Q2.NumberInQueue                            .10153     (Corr)     .00000     3.0000     .00000    
+Q3.NumberInQueue                            .10455     .02850     .00000     3.0000     1.0000    
+Q4.NumberInQueue                            .09889     .02022     .00000     3.0000     .00000    
+Q5.NumberInQueue                            .52791     .04418     .00000     3.0000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Part.NumberIn                               2830.0    
+Part.NumberOut                              2826.0    
+M1.NumberSeized                             2830.0    
+M1.ScheduledUtilization                     .98306    
+M2.NumberSeized                             889.00    
+M2.ScheduledUtilization                     .51414    
+M3.NumberSeized                             980.00    
+M3.ScheduledUtilization                     .51031    
+M4.NumberSeized                             959.00    
+M4.ScheduledUtilization                     .49919    
+M5.NumberSeized                             2827.0    
+M5.ScheduledUtilization                     .94802    
+System.NumberOut                            .00000    
+
+Beginning replication 3 of 5
+
+                                      ARENA Simulation Results
+                                 Edoardo Passarin - License: STUDENT
+
+                                  Summary for Replication 3 of 5
+
+Project: Unnamed Project                                             Run execution date : 3/10/2022
+Analyst: francesco.verucchi@hotmail.it                               Model revision date: 3/10/2022
+
+Replication ended at time      : 86400.0 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Tally 1                                         --         --         --         --          0
+Systime_tally                               133.90     2.3699     93.216     275.71       2833    
+Part.VATime                                     --         --         --         --          0
+Part.NVATime                                    --         --         --         --          0
+Part.WaitTime                                   --         --         --         --          0
+Part.TranTime                                   --         --         --         --          0
+Part.OtherTime                                  --         --         --         --          0
+Part.TotalTime                                  --         --         --         --          0
+Q1.WaitingTime                              2.0476     .38748     .00000     15.845       2837    
+Q2.WaitingTime                              12.680     2.5746     .00000     120.72        909    
+Q3.WaitingTime                              7.9359     1.0819     .00000     89.028        945    
+Q4.WaitingTime                              8.0776     .94698     .00000     62.557        982    
+Q5.WaitingTime                              16.831     1.5425     .00000     75.383       2834    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Part.WIP                                    4.3939     .06408     .00000     7.0000     4.0000    
+M1.NumberBusy                               .98493     .00164     .00000     1.0000     1.0000    
+M1.NumberScheduled                          1.0000     (Insuf)    1.0000     1.0000     1.0000    
+M1.Utilization                              .98493     .00164     .00000     1.0000     1.0000    
+M2.NumberBusy                               .52451     .02655     .00000     1.0000     1.0000    
+M2.NumberScheduled                          1.0000     (Insuf)    1.0000     1.0000     1.0000    
+M2.Utilization                              .52451     .02655     .00000     1.0000     1.0000    
+M3.NumberBusy                               .49215     .02060     .00000     1.0000     .00000    
+M3.NumberScheduled                          1.0000     (Insuf)    1.0000     1.0000     1.0000    
+M3.Utilization                              .49215     .02060     .00000     1.0000     .00000    
+M4.NumberBusy                               .50988     .02372     .00000     1.0000     1.0000    
+M4.NumberScheduled                          1.0000     (Insuf)    1.0000     1.0000     1.0000    
+M4.Utilization                              .50988     .02372     .00000     1.0000     1.0000    
+M5.NumberBusy                               .95116     .00451     .00000     1.0000     1.0000    
+M5.NumberScheduled                          1.0000     (Insuf)    1.0000     1.0000     1.0000    
+M5.Utilization                              .95116     .00451     .00000     1.0000     1.0000    
+Q1.NumberInQueue                            .06724     .01282     .00000     1.0000     .00000    
+Q2.NumberInQueue                            .13341     .02649     .00000     3.0000     .00000    
+Q3.NumberInQueue                            .08680     .01371     .00000     2.0000     .00000    
+Q4.NumberInQueue                            .09181     .01678     .00000     2.0000     .00000    
+Q5.NumberInQueue                            .55208     .04426     .00000     3.0000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Part.NumberIn                               2837.0    
+Part.NumberOut                              2833.0    
+M1.NumberSeized                             2837.0    
+M1.ScheduledUtilization                     .98493    
+M2.NumberSeized                             909.00    
+M2.ScheduledUtilization                     .52451    
+M3.NumberSeized                             945.00    
+M3.ScheduledUtilization                     .49215    
+M4.NumberSeized                             982.00    
+M4.ScheduledUtilization                     .50988    
+M5.NumberSeized                             2834.0    
+M5.ScheduledUtilization                     .95116    
+System.NumberOut                            .00000    
+
+Beginning replication 4 of 5
+
+                                      ARENA Simulation Results
+                                 Edoardo Passarin - License: STUDENT
+
+                                  Summary for Replication 4 of 5
+
+Project: Unnamed Project                                             Run execution date : 3/10/2022
+Analyst: francesco.verucchi@hotmail.it                               Model revision date: 3/10/2022
+
+Replication ended at time      : 86400.0 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Tally 1                                         --         --         --         --          0
+Systime_tally                               136.43     2.9452     95.518     283.00       2829    
+Part.VATime                                     --         --         --         --          0
+Part.NVATime                                    --         --         --         --          0
+Part.WaitTime                                   --         --         --         --          0
+Part.TranTime                                   --         --         --         --          0
+Part.OtherTime                                  --         --         --         --          0
+Part.TotalTime                                  --         --         --         --          0
+Q1.WaitingTime                              2.2322     .61113     .00000     17.548       2834    
+Q2.WaitingTime                              11.907     2.0650     .00000     121.12        895    
+Q3.WaitingTime                              9.2245     1.4870     .00000     100.90        978    
+Q4.WaitingTime                              9.8260     2.4473     .00000     140.29        960    
+Q5.WaitingTime                              18.195     (Corr)     .00000     92.856       2830    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Part.WIP                                    4.4716     .10229     .00000     7.0000     5.0000    
+M1.NumberBusy                               .98417     .00289     .00000     1.0000     1.0000    
+M1.NumberScheduled                          1.0000     (Insuf)    1.0000     1.0000     1.0000    
+M1.Utilization                              .98417     .00289     .00000     1.0000     1.0000    
+M2.NumberBusy                               .51786     .03269     .00000     1.0000     1.0000    
+M2.NumberScheduled                          1.0000     (Insuf)    1.0000     1.0000     1.0000    
+M2.Utilization                              .51786     .03269     .00000     1.0000     1.0000    
+M3.NumberBusy                               .51089     .02259     .00000     1.0000     .00000    
+M3.NumberScheduled                          1.0000     (Insuf)    1.0000     1.0000     1.0000    
+M3.Utilization                              .51089     .02259     .00000     1.0000     .00000    
+M4.NumberBusy                               .50180     .02859     .00000     1.0000     1.0000    
+M4.NumberScheduled                          1.0000     (Insuf)    1.0000     1.0000     1.0000    
+M4.Utilization                              .50180     .02859     .00000     1.0000     1.0000    
+M5.NumberBusy                               .95065     .00519     .00000     1.0000     1.0000    
+M5.NumberScheduled                          1.0000     (Insuf)    1.0000     1.0000     1.0000    
+M5.Utilization                              .95065     .00519     .00000     1.0000     1.0000    
+Q1.NumberInQueue                            .07322     .01894     .00000     1.0000     .00000    
+Q2.NumberInQueue                            .12334     .02825     .00000     3.0000     .00000    
+Q3.NumberInQueue                            .10442     .02042     .00000     3.0000     .00000    
+Q4.NumberInQueue                            .10918     .02998     .00000     4.0000     .00000    
+Q5.NumberInQueue                            .59614     .07157     .00000     4.0000     1.0000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Part.NumberIn                               2834.0    
+Part.NumberOut                              2829.0    
+M1.NumberSeized                             2834.0    
+M1.ScheduledUtilization                     .98417    
+M2.NumberSeized                             895.00    
+M2.ScheduledUtilization                     .51786    
+M3.NumberSeized                             978.00    
+M3.ScheduledUtilization                     .51089    
+M4.NumberSeized                             960.00    
+M4.ScheduledUtilization                     .50180    
+M5.NumberSeized                             2830.0    
+M5.ScheduledUtilization                     .95065    
+System.NumberOut                            .00000    
+
+Beginning replication 5 of 5
+
+                                      ARENA Simulation Results
+                                 Edoardo Passarin - License: STUDENT
+
+                                  Summary for Replication 5 of 5
+
+Project: Unnamed Project                                             Run execution date : 3/10/2022
+Analyst: francesco.verucchi@hotmail.it                               Model revision date: 3/10/2022
+
+Replication ended at time      : 86400.0 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Tally 1                                         --         --         --         --          0
+Systime_tally                               134.07     2.6914     92.627     265.08       2827    
+Part.VATime                                     --         --         --         --          0
+Part.NVATime                                    --         --         --         --          0
+Part.WaitTime                                   --         --         --         --          0
+Part.TranTime                                   --         --         --         --          0
+Part.OtherTime                                  --         --         --         --          0
+Part.TotalTime                                  --         --         --         --          0
+Q1.WaitingTime                              1.7529     .48536     .00000     14.757       2831    
+Q2.WaitingTime                              12.092     3.0049     .00000     115.47        909    
+Q3.WaitingTime                              8.3413     1.2979     .00000     90.513        939    
+Q4.WaitingTime                              7.8808     .95622     .00000     85.851        982    
+Q5.WaitingTime                              17.359     1.8904     .00000     80.984       2828    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Part.WIP                                    4.3903     .09611     .00000     7.0000     4.0000    
+M1.NumberBusy                               .98225     .00251     .00000     1.0000     1.0000    
+M1.NumberScheduled                          1.0000     (Insuf)    1.0000     1.0000     1.0000    
+M1.Utilization                              .98225     .00251     .00000     1.0000     1.0000    
+M2.NumberBusy                               .52585     .01961     .00000     1.0000     1.0000    
+M2.NumberScheduled                          1.0000     (Insuf)    1.0000     1.0000     1.0000    
+M2.Utilization                              .52585     .01961     .00000     1.0000     1.0000    
+M3.NumberBusy                               .49001     .01813     .00000     1.0000     .00000    
+M3.NumberScheduled                          1.0000     (Insuf)    1.0000     1.0000     1.0000    
+M3.Utilization                              .49001     .01813     .00000     1.0000     .00000    
+M4.NumberBusy                               .51049     (Corr)     .00000     1.0000     .00000    
+M4.NumberScheduled                          1.0000     (Insuf)    1.0000     1.0000     1.0000    
+M4.Utilization                              .51049     (Corr)     .00000     1.0000     .00000    
+M5.NumberBusy                               .94863     .00487     .00000     1.0000     1.0000    
+M5.NumberScheduled                          1.0000     (Insuf)    1.0000     1.0000     1.0000    
+M5.Utilization                              .94863     .00487     .00000     1.0000     1.0000    
+Q1.NumberInQueue                            .05744     .01550     .00000     1.0000     .00000    
+Q2.NumberInQueue                            .12723     .03055     .00000     3.0000     .00000    
+Q3.NumberInQueue                            .09065     .01607     .00000     2.0000     .00000    
+Q4.NumberInQueue                            .08957     .01312     .00000     2.0000     .00000    
+Q5.NumberInQueue                            .56826     .06431     .00000     3.0000     1.0000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Part.NumberIn                               2831.0    
+Part.NumberOut                              2827.0    
+M1.NumberSeized                             2831.0    
+M1.ScheduledUtilization                     .98225    
+M2.NumberSeized                             909.00    
+M2.ScheduledUtilization                     .52585    
+M3.NumberSeized                             939.00    
+M3.ScheduledUtilization                     .49001    
+M4.NumberSeized                             982.00    
+M4.ScheduledUtilization                     .51049    
+M5.NumberSeized                             2828.0    
+M5.ScheduledUtilization                     .94863    
+System.NumberOut                            .00000    
+
+
+                                      ARENA Simulation Results
+                                 Edoardo Passarin - License: STUDENT
+
+                                  Output Summary for 5 Replications
+
+Project: Unnamed Project                                             Run execution date : 3/10/2022
+Analyst: francesco.verucchi@hotmail.it                               Model revision date: 3/10/2022
+
+
+                                             OUTPUTS
+
+Identifier                                 Average    Half-width Minimum    Maximum # Replications
+___________________________________________________________________________________________________
+
+Part.NumberIn                               2833.4     3.5766     2830.0     2837.0     5
+Part.NumberOut                              2829.2     3.5550     2826.0     2833.0     5
+M1.NumberSeized                             2833.4     3.5766     2830.0     2837.0     5
+M1.ScheduledUtilization                     .98394     .00157     .98225     .98527     5
+M2.NumberSeized                             908.00     23.489     889.00     938.00     5
+M2.ScheduledUtilization                     .52520     .01412     .51414     .54365     5
+M3.NumberSeized                             953.80     29.683     927.00     980.00     5
+M3.ScheduledUtilization                     .49747     .01535     .48396     .51089     5
+M4.NumberSeized                             970.20     14.056     959.00     982.00     5
+M4.ScheduledUtilization                     .50470     .00638     .49919     .51049     5
+M5.NumberSeized                             2830.2     3.5550     2827.0     2834.0     5
+M5.ScheduledUtilization                     .94978     .00170     .94802     .95116     5
+System.NumberOut                            .00000     .00000     .00000     .00000     5
+
+Simulation run time: 0.05 minutes.
+Simulation run complete.

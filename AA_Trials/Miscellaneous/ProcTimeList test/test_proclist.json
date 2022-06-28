@@ -1,0 +1,75 @@
+{
+    "general": {
+        "maxSimTime": 100,
+        "numberOfReplications": 1,
+        "trace": "No",
+	"seed": 1
+    },
+    "graph": {
+        "edge": {
+            "1": {
+                "_class": "manpy.Edge",
+                "destination": "Q1",
+                "source": "M2"
+            },
+            "2": {
+                "_class": "manpy.Edge",
+                "destination": "M1",
+                "source": "Q1"
+            },
+            "3": {
+                "_class": "manpy.Edge",
+                "destination": "Q2",
+                "source": "M1"
+            },
+	    "4": {
+                "_class": "manpy.Edge",
+                "destination": "M2",
+                "source": "Q2"
+            }
+        },
+        "node": {
+            "M1": {
+                "_class": "manpy.Machine",
+                "name": "Machine",
+                "processingTime": {
+                    "fromList": {
+                        "path": "M1_proclist"
+                    }
+                },
+		"gatherSysTime": 1
+            },
+	    "M2": {
+                "_class": "manpy.Machine",
+                "name": "Machine",
+                "processingTime": {
+                    "fromList": {
+                        "path": "M2_proclist"
+                    }
+                }
+            },
+            "Q1": {
+                "_class": "manpy.Queue",
+                "capacity": 5,
+                "name": "Queue",
+		"wip": [
+		     {
+			"_class": "manpy.Part",
+                        "id": "P1",
+                        "name": "Part1"
+		     },
+		     {
+			"_class": "manpy.Part",
+                        "id": "P2",
+                        "name": "Part2"
+		     }
+		]
+            },
+            "Q2": {
+                "_class": "manpy.Queue",
+                "capacity": 2,
+                "name": "Queue"
+            }
+        }
+    }
+}

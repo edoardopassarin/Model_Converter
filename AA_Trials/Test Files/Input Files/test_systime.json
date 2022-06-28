@@ -1,0 +1,83 @@
+{
+    "general": {
+        "maxSimTime": 100,
+        "numberOfReplications": 2,
+        "trace": "No",
+	"seed": 1
+    },
+    "graph": {
+        "edge": {
+            "1": {
+                "_class": "manpy.Edge",
+                "destination": "Q1",
+                "source": "S1"
+            },
+            "2": {
+                "_class": "manpy.Edge",
+                "destination": "M1",
+                "source": "Q1"
+            },
+            "3": {
+                "_class": "manpy.Edge",
+                "destination": "Q2",
+                "source": "M1"
+            },
+	    "4": {
+                "_class": "manpy.Edge",
+                "destination": "M2",
+                "source": "Q2"
+            },
+	    "5": {
+                "_class": "manpy.Edge",
+                "destination": "E1",
+                "source": "M2"
+            }
+        },
+        "node": {
+            "E1": {
+                "_class": "manpy.Exit",
+                "name": "Exit",
+		"gatherSysTimeEx": 1
+            },
+            "M1": {
+                "_class": "manpy.Machine",
+                "name": "Machine",
+                "processingTime": {
+                    "Fixed": {
+                        "mean": 1.0
+                    }
+                }
+            },
+	    "M2": {
+                "_class": "manpy.Machine",
+                "name": "Machine",
+                "processingTime": {
+                    "Fixed": {
+                        "mean": 1.0
+                    }
+                }
+            },
+            "Q1": {
+                "_class": "manpy.Queue",
+                "capacity": 1000,
+                "name": "Queue"
+            },
+            "Q2": {
+                "_class": "manpy.Queue",
+                "capacity": 1000,
+                "name": "Queue"
+            },
+            "S1": {
+                "_class": "manpy.Source",
+                "entity": "manpy.Part",
+                "id": "S1",
+                "interArrivalTime": {
+                    "Fixed": {
+                        "mean": 2.0
+                    }
+                },
+                "name": "Source"
+            }
+        }
+    }
+}
