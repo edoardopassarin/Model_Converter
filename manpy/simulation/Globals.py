@@ -250,7 +250,7 @@ def getClassFromName(dotted_name):
 # =======================================================================
 def getMethodFromName(dotted_name):
     name = dotted_name.split(".")
-    methodName = name[-1]
+    method_name = name[-1]
     # if the method is in this script
     if "Globals" in name:
         methodName = name[name.index("Globals") + 1]
