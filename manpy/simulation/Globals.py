@@ -266,7 +266,7 @@ def getMethodFromName(dotted_name):
             clsName += "."
         clsName = clsName[:-1]
         cls = getClassFromName(clsName)
-        method = getattr(cls, methodName)
+        method = getattr(cls, method_name)
     if not method:
         raise Exception("Method %s not implemented" % method_name)
     return method

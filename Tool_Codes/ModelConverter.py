@@ -1,6 +1,7 @@
 # This class converts the graph model obtained through the process mining method into a model executable by the
 # simulator
-import manpy.simulation.Globals as Globals
+# import manpy.simulation.Globals as Globals
+from manpy.simulation.Globals import convertDistribution
 
 
 class ModelConverter:
@@ -76,7 +77,7 @@ class ModelConverter:
                     "M" + str(m + 1): {  # ID of the single machine
                         "_class": "manpy.Machine",  # specify that the object is a machine
                         "name": "Machine",
-                        "processingTime": Globals.convertDistribution(machine_distr, machine_distr_param),
+                        "processingTime": convertDistribution(machine_distr, machine_distr_param),
                         "freq_parallel": self.nodes[m]['frequency']
                     }
                 })
@@ -94,7 +95,7 @@ class ModelConverter:
                         "M" + str(m + 1) + "_" + str(c + 1): {  # if M1 has capacity 3, we create M1_1, M1_2, M1_3
                             "_class": "manpy.Machine",
                             "name": "Machine",
-                            "processingTime": Globals.convertDistribution(machine_distr, machine_distr_param),
+                            "processingTime": convertDistribution(machine_distr, machine_distr_param),
                             "freq_parallel": self.nodes[m]['frequency']
                         }
                     })

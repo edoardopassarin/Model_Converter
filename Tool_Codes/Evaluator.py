@@ -1,15 +1,16 @@
 # Class evaluator
 import random
 
-from DigitalModel import DigitalModel
-import manpy.simulation.Globals as Globals
 import scipy.stats
 import math
 import threading
 from time import sleep
 import datetime as dt
 import json
-from AA_Trials.WhatIf.broker_c import broker
+from broker import broker
+
+import manpy.simulation.Globals as Globals
+from DigitalModel import DigitalModel
 
 
 class Evaluator(threading.Thread):

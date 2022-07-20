@@ -10,7 +10,7 @@ import json
 import pandas as pd
 import pickle
 
-#import datetime
+# import datetime
 import time
 import datetime
 from time import sleep
@@ -22,30 +22,22 @@ from influxdb import InfluxDBClient
 from influxdb import DataFrameClient
 
 
+class broker:
+    def __init__(self, host, port, keepalive, DB_name=None):
 
+        self.host = host
+        self.port = port
+        self.keepalive = keepalive
+        self.client = mqtt.Client()
+        self.DB_name = DB_name
 
-class broker():
-
-    def __init__(self,host,port,keepalive,DB_name=None):
-
-        self.host=host
-        self.port=port
-        self.keepalive=keepalive
-        self.client=mqtt.Client()
-        self.DB_name=DB_name
-
-
-
-    def on_connect(self,client, userdata, flags, rc):
-        print("Connected with result code "+str(rc))
+    def on_connect(self, client, userdata, flags, rc):
+        print("Connected with result code " + str(rc))
         client.subscribe("topic/activity")
         client.subscribe("topic/states")
         client.subscribe("topic/config")
         client.subscribe("disc")
         client.subscribe("start")
-
-
-
 
     # def on_message(self,client, userdata, msg):
     #
@@ -86,12 +78,9 @@ class broker():
     #
     #         start_time  = time.time()
 
-
-
-
     def active(self):
 
-        self.client.connect(self.host,self.port,self.keepalive)
+        self.client.connect(self.host, self.port, self.keepalive)
         self.client.on_connect = self.on_connect
         self.client.on_message = self.on_message
 
@@ -101,12 +90,3 @@ class broker():
         self.client.connect(self.host, self.port, self.keepalive)
         configJSON = json.dumps(config, indent=4)
         self.client.publish(topic, configJSON)
-
-
-
-
-
-
-
-
-
